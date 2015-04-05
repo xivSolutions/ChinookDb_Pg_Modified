@@ -23,7 +23,7 @@
 CREATE SEQUENCE "album_album_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 347
  CACHE 1;
 SELECT setval('"public"."album_album_id_seq"', 347, true);
@@ -35,7 +35,7 @@ SELECT setval('"public"."album_album_id_seq"', 347, true);
 CREATE SEQUENCE "artist_artist_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 275
  CACHE 1;
 SELECT setval('"public"."artist_artist_id_seq"', 275, true);
@@ -47,7 +47,7 @@ SELECT setval('"public"."artist_artist_id_seq"', 275, true);
 CREATE SEQUENCE "customer_customer_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 59
  CACHE 1;
 SELECT setval('"public"."customer_customer_id_seq"', 59, true);
@@ -59,7 +59,7 @@ SELECT setval('"public"."customer_customer_id_seq"', 59, true);
 CREATE SEQUENCE "genre_genre_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 25
  CACHE 1;
 SELECT setval('"public"."genre_genre_id_seq"', 25, true);
@@ -71,7 +71,7 @@ SELECT setval('"public"."genre_genre_id_seq"', 25, true);
 CREATE SEQUENCE "employee_employee_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 8
  CACHE 1;
 SELECT setval('"public"."employee_employee_id_seq"', 8, true);
@@ -83,7 +83,7 @@ SELECT setval('"public"."employee_employee_id_seq"', 8, true);
 CREATE SEQUENCE "invoice_invoice_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 412
  CACHE 1;
 SELECT setval('"public"."invoice_invoice_id_seq"', 412, true);
@@ -95,7 +95,7 @@ SELECT setval('"public"."invoice_invoice_id_seq"', 412, true);
 CREATE SEQUENCE "invoiceline_invoiceline_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 2240
  CACHE 1;
 SELECT setval('"public"."invoiceline_invoiceline_id_seq"', 2240, true);
@@ -107,7 +107,7 @@ SELECT setval('"public"."invoiceline_invoiceline_id_seq"', 2240, true);
 CREATE SEQUENCE "mediatype_mediatype_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 5
  CACHE 1;
 SELECT setval('"public"."mediatype_mediatype_id_seq"', 5, true);
@@ -119,7 +119,7 @@ SELECT setval('"public"."mediatype_mediatype_id_seq"', 5, true);
 CREATE SEQUENCE "playlist_playlist_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 18
  CACHE 1;
 SELECT setval('"public"."playlist_playlist_id_seq"', 18, true);
@@ -131,7 +131,7 @@ SELECT setval('"public"."playlist_playlist_id_seq"', 18, true);
 CREATE SEQUENCE "track_track_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 3503
  CACHE 1;
 SELECT setval('"public"."track_track_id_seq"', 3503, true);
@@ -15949,7 +15949,7 @@ INSERT INTO playlist_track (playlist_id, track_id) VALUES (18, 597);
 CREATE SEQUENCE "actor_actor_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 203
  CACHE 1;
 SELECT setval('"public"."actor_actor_id_seq"', 203, true);
@@ -15961,7 +15961,7 @@ SELECT setval('"public"."actor_actor_id_seq"', 203, true);
 CREATE SEQUENCE "category_category_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 16
  CACHE 1;
 SELECT setval('"public"."category_category_id_seq"', 16, true);
@@ -15972,7 +15972,7 @@ SELECT setval('"public"."category_category_id_seq"', 16, true);
 CREATE SEQUENCE "film_film_id_seq"
  INCREMENT 1
  MINVALUE 1
- MAXVALUE 9223372036854775807
+ MAXVALUE 2147483647
  START 1000
  CACHE 1;
 SELECT setval('"public"."film_film_id_seq"', 1000, true);
